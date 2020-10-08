@@ -103,15 +103,16 @@
     .select_btn ul {margin-top:30px;}
     .select_btn ul li{display:inline-block}
     .select_btn ul li:last-child{padding-left:30px}
-    .iphone11 h2{font-family:sans-serif;font-size:32px;font-weight:600;font-style:normal;color:#131313}
+    .iphone11 h2{font-family: 'SF Pro Display','SF pro KR',serif;font-size: 32px;font-weight: 600;font-style:normal;color:#131313}
 
 
     .iphone11{text-align:center;height:450px;background:url(../img/iphone11.jpg) no-repeat;background-color: #fafafa;background-position:center bottom;margin-top: 12px;background-size:200%}
+    .iphone11 > p.point{font-size:12px;}
 
-
-    .ipad{text-align:center;height:450px;padding-bottom:10px;background:url(../img/ipad.jpg) no-repeat;background-position:50%;background-size:400%;margin-top: 12px;background-color: #fafafa;}
-    .ipad h2{font-family:sans-serif;font-size:32px;font-weight:600;font-style:normal;text-align:center;color:#131313}
+    .ipad{text-align:center;height:450px;padding-bottom:10px;background:url(../img/ipad.jpg) no-repeat;background-position:50% 120px;background-size:400%;margin-top: 12px;background-color: #fafafa;}
+    .ipad h2{font-family: 'SF Pro Display','SF pro KR',serif;font-size:32px;font-weight:600;font-style:normal;text-align:center;color:#131313}
     .ipad h3{font-size:19px}
+    .ipad span{display:block}
 
 /*
     .imac{width:50%;height:400px;background:url(../img/tile__cauwwcyyn9hy_large_2x.jpg) no-repeat;background-color:#f2f2f2;background-size:100%;background-position:center bottom;text-align:center;margin-right:12px} 
@@ -148,29 +149,34 @@
    .bottom_column1{display:flex;padding:12px;flex-direction: column;}
    .imac{width:100%}
    .imac{background-size: 108%;background-position: center 250px;}
+   .imac span{display:block}
    .iphone11pro{width:100%;margin-top:12px}
    .imac h4{font-size:32px;font-weight:600;margin-top:54px;color:#161617}
-   .imac h5{font-size:19px;color:#161617;width:80%;margin:0 auto}
+   .imac h5{font-size:19px;color:#161617;width:80%;margin:0 auto;line-height:25px; padding-top: 10px;}
    .iphone11pro h4{font-size:32px;font-weight:600;margin-top:54px;color:#f5f5f7}
-    .iphone11pro h5{font-size:19px;color:#f5f5f7}
-
+   .iphone11pro span{display:block}
+    .iphone11pro h5{font-size:19px;color:#f5f5f7;line-height:25px;padding-top: 10px;}
+    .iphone11pro > p.point {font-size: 12px;}
+  
    
    .bottom_column2{display:flex;padding:0 12px;flex-direction: column;}
-   .apple_watch{width:100%;}
+   .apple_watch{width:100%;background-size: 100%;}
    .apple_watch h5{font-size:19px;margin-top:12px;color:#161617}
    .macbookpro{width:100%;margin-top:12px;background-size: 250%;
     background-position: center 150px;}
    .macbookpro h4{font-size:32px;font-weight:600;margin-top:54px;color:#f5f5f7}
-   .macbookpro h5{font-size:19px;color:#f5f5f7;}
+   .macbookpro h5{font-size:19px;color:#f5f5f7;line-height:25px;padding-top: 10px;}
 
    .bottom_column3{display:flex;padding:0 12px;flex-direction: column;}
    .airpods{width:100%;background-size: 100%;}
    .airpods h4{font-size:32px;}
-   .airpods h5{font-size:19px;margin:0 auto ;max-width:260px;color:#161617}
+   .airpods h5{font-size:19px;margin:0 auto ;max-width:260px;color:#161617;line-height:25px;padding-top: 10px;}
+   .airpods h5 span{display:block}
    .weare{width:100%;margin:12px 0}
    .weare h4{font-size:32px;}
-   .weare h5{font-size:19px;color:#f5f5f7;max-width:300px}
+   .weare h5{font-size:19px;color:#f5f5f7;max-width:300px;line-height:25px;padding-top: 10px;}
 
 
    .footer{padding: 17px 10px 11px;}
+   .footer_bottom_noti .br{display:block;color:#86868b}
   }

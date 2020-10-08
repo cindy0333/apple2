@@ -217,7 +217,7 @@ li.nav_serch:hover{opacity:1}
     .footer_legal_links{float:left;text-decoration: none;padding:0px;line-height:18px}
     .footer_legal_links a{color:#515154;border-right:1px solid #d2d2d7;padding:0 8px 0 8px}
     .footer_legal_links a:first-child{padding-left:0px}
-    .footer_legal_links a:last-child{border:none;margin-left:0}
+    .footer_legal_links a:last-child{border:none;padding-left:0}
     .footer_legal_links a:hover{text-decoration:underline;border-bottom:none;font-weight: bold;}
     .footer_legal::after{clear: both;content:'';display:table}
     p.footer_info{font-size:10.5px;letter-spacing:0.2;color:#999;}
