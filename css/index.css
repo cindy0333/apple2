@@ -107,7 +107,7 @@
 
 
     .iphone11{text-align:center;height:450px;background:url(../img/iphone11.jpg) no-repeat;background-color: #fafafa;background-position:center bottom;margin-top: 12px;background-size:200%}
-    .iphone11 > p.point{font-size:12px;}
+    .iphone11 > p.point{font-size:14px;}
 
     .ipad{text-align:center;height:450px;padding-bottom:10px;background:url(../img/ipad.jpg) no-repeat;background-position:50% 120px;background-size:400%;margin-top: 12px;background-color: #fafafa;}
     .ipad h2{font-family: 'SF Pro Display','SF pro KR',serif;font-size:32px;font-weight:600;font-style:normal;text-align:center;color:#131313}
